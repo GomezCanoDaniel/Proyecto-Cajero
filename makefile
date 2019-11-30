@@ -3,7 +3,7 @@ a.out: main.o cajero.o
 	gcc main.o cajero.o
 main.o: main.c
 	gcc -c main.c
-arbol.o: main.c
+cajero.o: cajero.c
 	gcc -c cajero.c
 run: a.out
 	./a.out
